@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+App{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: antiquewhite;
+}
+
+ .game--item{
+    list-style: none;
+    border: solid 2px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    }
+
+
+
+.game{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    gap: 0.4px;
+    background-color: rgb(128, 126, 125);
+    border-radius: 25px;
+    font-size: 42px;
+}
+
+.green{
+    background-color: green;
+    
+}
+
+.red{
+    background-color: red;
+}
